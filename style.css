@@ -1,11 +1,17 @@
 * {
-    background-image: linear-gradient(45deg, #080807, #30302f);
-    background-size: 400% 400%;
-    animation: gradientAnimation 10s ease infinite;
+   
+    
     margin: 0;
     padding: 0;
+    
 }
-
+body{
+    height: 98vh;
+    background-image: linear-gradient(45deg, #080807, #30302f);
+    animation: gradientAnimation 10s ease infinite;
+    border: 10px solid white;
+     
+}
 
 @keyframes gradientAnimation {
     0% {

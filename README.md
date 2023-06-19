@@ -2,7 +2,7 @@
 
 An analog clock project that displays the current time using HTML, CSS, and JavaScript.
 
-![Analog Clock](./clock.png)
+![Analog Clock](clock.png)
 
 ## Description
 

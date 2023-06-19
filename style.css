@@ -1,0 +1,77 @@
+* {
+    background-image: linear-gradient(45deg, #080807, #30302f);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+    margin: 0;
+    padding: 0;
+}
+
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Playfair Display', serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.analogwatch {
+    position: relative;
+    height: 30vw;
+    width: 30vw;
+    border-radius: 50%;
+    background: url(https://www.pngkit.com/png/full/135-1352157_clock-with-no-hands.png);
+    background-size: cover;
+
+
+}
+
+.hour,
+.minute,
+.second {
+    border-radius: 2px;
+    position: absolute;
+    transform-origin: bottom center;
+    left: 50%;
+    bottom: 50%;
+}
+
+.hour {
+    background-color: black;
+    width: 5px;
+    height: 6vw;
+
+}
+
+.minute {
+    background-color: black;
+    width: 3px;
+    height: 8vw;
+}
+
+.second {
+    background-color: black;
+    width: 1px;
+    height: 11vw;
+}

@@ -2,7 +2,7 @@
 
 An analog clock project that displays the current time using HTML, CSS, and JavaScript.
 
-<img src="https://github.com/arjunsingh27/AnalogClock/blob/main/%20clock.png" alt="Analog Clock" width="100vw" height="400">
+<img src="https://github.com/arjunsingh27/AnalogClock/blob/main/%20clock.png" alt="Analog Clock" width="800px" height="400px">
 
 ## Description
 
@@ -19,7 +19,7 @@ The clock will be displayed, showing the current time based on your system's clo
 
 ## Preview
 
-<img src="https://github.com/arjunsingh27/AnalogClock/blob/main/%20clock.png" width="100vw" height="400">
+<img src="https://github.com/arjunsingh27/AnalogClock/blob/main/%20clock.png" width="800px" height="400px">
 
 ## Credits
 

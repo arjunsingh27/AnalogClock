@@ -19,7 +19,7 @@ The clock will be displayed, showing the current time based on your system's clo
 
 ## Preview
 
-![Analog Clock Preview](preview.gif)
+![Analog Clock Preview]("./clock.png")
 
 ## Credits
 
